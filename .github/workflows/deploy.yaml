@@ -53,3 +53,4 @@ jobs:
           projectName: ${{ steps.vars.outputs.repo }}
           directory: dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          wranglerVersion: '3'
